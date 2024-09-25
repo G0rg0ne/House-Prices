@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hpp"
+version = "0.1.0"
+description = ""
+authors = ["G0rg0ne <reda1999nox@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+pandas = "^2.2.3"
+polars = "^1.8.2"
+plotly-express = "^0.4.1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
